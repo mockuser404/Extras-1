@@ -1,6 +1,6 @@
 {
     "##": "The homepage requires JS to load (not suitable for checkver)",
-    "version": "1.4.1.6",
+    "version": "1.4.3.12",
     "description": "Video calls and chat software",
     "homepage": "https://imo.im/",
     "depends": "extras/uniextract2",
@@ -8,8 +8,8 @@
         "identifier": "Freeware",
         "url": "https://imo.im/policies/terms_of_service.html"
     },
-    "url": "https://static-web.imoim.net/as/indigo-static/imo-app/imo-Windows/ImoSetup_1.4.1.6_Release.exe#/dl.exe",
-    "hash": "a752c5d464597d99cfadab2009353d3420a761738d8ab301692584159a54c4a7",
+    "url": "https://static-web.imoim.net/as/indigo-static/imo-app/imo-Windows/ImoSetup_1.4.3.12_Release.exe#/dl.exe",
+    "hash": "b3c5c3faef61f4ffe86dca0e1a1a8fb41f2a5f7baf689ad8f8a47b1653f2d690",
     "pre_install": [
         "New-Item \"$dir\\extract\" -ItemType Directory | Out-Null",
         "Invoke-ExternalCommand uniextract -ArgumentList @(\"`\"$dir\\dl.exe`\"\", \"`\"$dir\\extract`\"\", '/silent') | Out-Null",
