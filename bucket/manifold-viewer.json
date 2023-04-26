@@ -1,14 +1,14 @@
 {
-    "version": "9.0.177",
+    "version": "9.0.180",
     "description": "File viewer for Manifold - a parallel GIS, ETL, data science and DBMS tool",
     "homepage": "https://manifold.net/",
     "license": "Freeware",
     "suggest": {
         "Microsoft Visual C++ Redistributable 2015-2022": "extras/vcredist2022"
     },
-    "url": "https://www.manifoldgis.com/updates/working/manifold-viewer-9.0.177-x64.zip",
-    "hash": "6a861fffb2b6827d43f1d2b30d3c722eb09f28a999e37c14d70cc02b416704b8",
-    "extract_dir": "manifold-viewer-9.0.177-x64",
+    "url": "https://www.manifoldgis.com/updates/working/manifold-viewer-9.0.180-x64.zip",
+    "hash": "5dfdcb512a59a72efd79acd16d20fda7c51aa1c67bfda7031a6f1a557648d7fc",
+    "extract_dir": "manifold-viewer-9.0.180-x64",
     "architecture": {
         "64bit": {
             "bin": "bin64\\manifold.exe",
